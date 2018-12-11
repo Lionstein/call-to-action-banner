@@ -72,6 +72,11 @@ p {
   font-weight: 500;
 }
 
+.btn:hover {
+  background-color: #000;
+  border-color: #333;
+}
+
 .btn {
   display: inline-block;
   padding: .3em .9em;
@@ -79,8 +84,10 @@ p {
   border-radius: 8px;
   text-decoration: none;
   color: #fff;
+}
 
-.btn: hover {
-  background-color: #000;
-  border-color: #333;
+.btn-big {
+  margin: .3em;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
